@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Outpost Academy</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/11db549ea0.js" crossorigin="anonymous"></script>
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/F291D647-0790-4FBD-A37B-AF0869698C9E.png" class="logo">
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#curr-courses">Courses</a>
+                        <a href="#online-classes">Online Classes</a>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Outpost Academy</h1>
+                <h2><a href="https://www.youtube.com/@OutpostAcademy" target="_blank"><span>Join Our Classes Today!</span></a></h2>
+                <h3>
+                    <span>Follow Us on Social Media!!!</span>
+                    <div class="header-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61564660415580&notif_id=1733807017090973&notif_t=page_user_activity&ref=notif" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/@OutpostAcademy" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/outpost_academy/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.x.com/@Outpostacad2023" target="_blank"><i class="fa-brands fa-x"></i></a>
+                    </div>
+                </h3>
+            </div>
+        </div>
+    </div>
+
+<!-- -------------------------------About----------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <h2 class="sub-title">About Us</h2>
+          <div class="row">
+            <div class="about-col-1">
+              <img src="images/F291D647-0790-4FBD-A37B-AF0869698C9E.png">
+            </div>
+            <div class="about-col-2">
+              <p>As a growing educational institution, Outpost Academy is committed to expanding its offerings to include on-site, online, and hybridized learning models. Our vision encompasses many disciplines, including the hard sciences, life sciences, mathematics, and social sciences. Our mission is to cultivate academic rigor that prepares students for college and university. 
+                We strive to ensure equitable access to higher education and empower students to succeed in a globalized community. 
+                Outpost Academy aims to equip young learners with the tools they need to excel academically, socially, and ethically. 
+                Through our programs, students will develop into well-informed, morally grounded, and globally aware citizens, ready to make meaningful contributions to their communities and the world. 
+                While Outpost Academy is rooted in Islamic principles, we warmly welcome students of all faiths. Our values of scholarship, justice, peace, and decency are universal, and we are dedicated to fostering an inclusive, supportive learning environment for all.</p>    
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-3">
+                    <img src="images/Omar's headshot 3.jpeg">
+                    <h1>Founder<br></h1>
+                </div>
+                <div class="about-col-4">
+                    <p>Dr. Omar Hassan Dphrepaulezz is a historian, educator, and the founder of Outpost Academy, where he serves as the principal curriculum designer. 
+                    With a scholarly focus on African American History, U.S. History, and U.S. Foreign Policy, Dr. Dphrepaulezz employs innovative teaching methods to explore the intersections of race, imperialism, and the struggles of marginalized communities in their pursuit of freedom and autonomy. 
+                    Dr. Dphrepaulezz earned his Ph.D. in History from the University of Connecticut, where his research addressed African American History and the intricate relationship between white supremacy and the expansion of the U.S. Empire. 
+                    His academic expertise encompasses U.S. History, the History of American Foreign Relations, and African American History, all of which he has extensively taught and researched. 
+                    Through Outpost Academy, Dr. Dphrepaulezz is committed to delivering culturally relevant and historically grounded educational experiences. 
+                    His curriculum integrates rigorous historical scholarship with practical insights, fostering a deeper understanding of African American experiences and the role of U.S. foreign policy in shaping global and domestic dynamics.. </p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+<!-- ----------------------------------Curr-Courses----------------------------------------------- -->
+<div id="curr-courses">
+    <div class="container">
+        <div class="row">
+            <div class="curr-courses-col-1">
+                <img src="Images/Library.png">
+                <div class="curr-courses-col-2">
+                    <h1 class="sub-title">Courses</h1>
+                    <p>2025-2026</p>
+                </div>
+                <div class="tab-titles">
+                    <p class="tab-links active-links" onclick="opentab('american-hist')">American History</p>
+                    <p class="tab-links active-links" onclick="opentab('afro-american')">African American History</p>
+                    <p class="tab-links active-links" onclick="opentab('future')">Future Courses</p>
+                </div>
+                <div class="tab-contents active-tab" id="american-hist">
+                    <ul>
+                    <li><span>Early American History:</span><br>European Occupation of the Americas to End of
+                        Reconstruction United States</li>
+                    <li><span>United States Rise to Global Power:</span><br>United States History from the end of the
+                        Civil War to 9/11</li>
+                </ul>
+                </div>
+                <div class="tab-contents active-tab" id="afro-american">
+                    <ul>
+                        <li><span>African American History I:</span><br>The Transatlantic Slave Trade to the End of
+                            Reconstruction</li>
+                        <li><span>African American History II:</span><br>The End of the American Civil War to “The New Jim
+                            Crow”</li>
+                    </ul>
+                </div>
+                <div class="tab-contents active-tab" id="future"><ul>
+                    <li><span>Future Course:</span><br>African Americans and Islam</li>
+                    <li><span>Future Course:</span><br>History of United States Foreign Policy</li>
+                    <li><span>Future Course:</span><br>The Vietnam War and Black Liberation in the 1960s</li>
+                    <li><span>Future Course:</span><br>S.T.E.M.(Science Technology Economics and Math)</li>
+                </ul>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+     
+<!-- ----------------------------Online-Classes--------------------------------------- -->
+
+<div id="online-classes">
+    <div class="container">
+        <h1 class="sub-title">Online Classes</h1>
+    </div>
+    <div class="work-list">
+        <div class="work">
+            <img src="Images/classroom-2093743_1920.jpg">
+            <div class="layer">
+                <h3>Welcome to Outpost Academy</h3>
+                <p>This is the introductory video for our classes.</p>
+                <a href="https://www.youtube.com/watch?v=jbp_VO9bod0" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="Images/classroom photo 4.png">
+            <div class="layer">
+                <h3>Outpost US1 The European Conquest of the Americas</h3>
+                <p>This is the first of a series of lectures on Early United States History. This lecture covers the initial occupation of the East Coast of North America by European settlers.</p>
+                <a href="https://www.youtube.com/watch?v=rXHL-I0Id7k" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="https://www.youtube.com/@OutpostAcademy" target="_blank" class="btn">See More</a>
+</div>
+
+<!-- ----------------------Contact---------------------------- -->
+
+   <div id="contact">
+    <div class="container">
+        <h1 class="sub-title">Contact Us</h1>
+    </div>
+            <div class="contact-list">
+                <div class="contact-left">
+                <p><i class="fa-solid fa-paper-plane"><a href="mailto:outpostacademy2025@gmail.com" target="_blank">outpostacademy2025@gmail.com</a></i></p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61564660415580&notif_id=1733807017090973&notif_t=page_user_activity&ref=notif" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/@OutpostAcademy" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/outpost_academy/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.x.com/@Outpostacad2023" target="_blank"><i class="fa-brands fa-x"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form onsubmit="sendMail(); reset(); return false;" autocomplete="off">
+                    <input type="text" id="subject" name="Subject" placeholder="Subject" required>
+                    <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" id="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+            </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Outpost Academy, LLC. 2025</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-tab");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script type="text/javascript">
+    (function(){
+       emailjs.init({publicKey: "7cH5X9gHF0sCOjX6r"});
+       })();
+ </script>
+
+<script>
+
+    function sendMail() {
+        let parms = {
+                subject: document.getElementById("subject").value,
+                name: document.getElementById("name").value,
+                email: document.getElementById("email").value,
+                message: document.getElementById("message").value,
+            }
+            emailjs.send("service_12l7dgf", "template_6axp6he", parms).then(alert("Email Send!!!!"))
+        }
+</script>
+
+    </body>
+</html>
